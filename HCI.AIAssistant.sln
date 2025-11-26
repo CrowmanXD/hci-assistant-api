@@ -22,6 +22,5 @@ Global
 		{F1E6B334-F4CA-42CD-B522-FE22558DC19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F1E6B334-F4CA-42CD-B522-FE22558DC19F} = {89BE9A13-CC7F-4C06-BC00-9DABED514849}
 	EndGlobalSection
 EndGlobal
