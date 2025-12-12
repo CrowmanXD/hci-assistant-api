@@ -16,7 +16,6 @@ namespace HCI.AIAssistant.API.Managers
             => secret.Name.StartsWith(_prefix); 
  
         public override string GetKey(KeyVaultSecret secret) 
-            => secret.Name[_prefix.Length..].Replace("--", 
-ConfigurationPath.KeyDelimiter); 
+            => secret.Name[_prefix.Length..].Replace("--", ConfigurationPath.KeyDelimiter); 
     } 
 } 
